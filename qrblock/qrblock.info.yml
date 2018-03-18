@@ -1,0 +1,7 @@
+name: QR Block
+type: module
+description: 'Creates a block that displays images from QR code.'
+package: Social
+core: 8.x
+dependencies:
+  - block

@@ -1,0 +1,15 @@
+{
+  "name": "amey/qr-code",
+  "description": "Simple QR code generator.",
+  "type": "drupal-module",
+  "require": {
+    "endroid/qr-code": "2.5.0"
+  },
+  "license": "GPL-2.0+",
+  "authors": [
+    {
+      "name": "Amey Mudras",
+      "email": "amey.mudras@acquia.com"
+    }
+  ]
+}

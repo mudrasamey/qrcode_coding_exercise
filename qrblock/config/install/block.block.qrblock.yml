@@ -1,0 +1,29 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - qrblock
+  theme:
+    - bartik
+id: qrblock
+theme: bartik
+region: sidebar_second
+weight: 0
+provider: null
+plugin: qr_block
+settings:
+  id: qr_block
+  label: 'QR block'
+  provider: qrblock
+  label_display: '0'
+  qrblock_title: 'Scan here on your mobile'
+  qrblock_description: 'To purchase this product on our app to avail exclusive app-only'
+visibility:
+  node_type:
+    id: node_type
+    bundles:
+      product: product
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'
